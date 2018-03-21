@@ -1,0 +1,16 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+group = 'com.example'
+version = '0.1'
+mainClassName = 'com.example.App'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile group: 'io.lettuce', name: 'lettuce-core', version: '5.0.2.RELEASE'
+}
+
+
