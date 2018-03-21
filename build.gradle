@@ -1,0 +1,16 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+group = 'com.example'
+version = '0.1'
+mainClassName = 'com.example.App'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile group: 'biz.paluch.redis', name: 'lettuce', version: '4.4.3.Final'
+}
+
+
